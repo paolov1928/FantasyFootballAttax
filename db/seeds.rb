@@ -174,7 +174,7 @@ players2 =["4b09ab09-1457-4c9d-a99d-6a03d8e76c76",
 
 
 players2.each do |p|
-url = "http://api.sportradar.us/nfl/official/trial/v5/en/players/#{p}/profile.json?api_key=XXXXXXXXX"
+url = "http://api.sportradar.us/nfl/official/trial/v5/en/players/#{p}/profile.json?api_key=XXXXXXXXXXXX"
 response = RestClient.get(url)
 result = JSON.parse(response)
  p result
