@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :items
+  resources :games
   resources :users
   post 'signin', to: 'users#signin'
   get 'validate', to: 'users#validate'

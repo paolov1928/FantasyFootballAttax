@@ -1,11 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  description: MyString
   user: one
+  yourTeam: MyString
+  opponentTeam: MyString
+  won: false
 
 two:
-  name: MyString
-  description: MyString
   user: two
+  yourTeam: MyString
+  opponentTeam: MyString
+  won: false
