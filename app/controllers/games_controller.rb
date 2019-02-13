@@ -35,5 +35,5 @@ class GamesController < ApplicationController
       params.require(:game).permit(:user_id, :yourTeam, :opponentTeam, :won)
     end
 
-    :user_id: , :yourTeam, :opponentTeam, :won
+  
 end
