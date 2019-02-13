@@ -21,3 +21,14 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+# Ignore application configuration
+/config/application.yml
