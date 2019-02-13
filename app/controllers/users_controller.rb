@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   def index
   render json: User.all.to_json(only: [:username, :id],
-            include: [games: { only: [:id, :yourTeam, :opponentTeam, :won]}])
+            include: [games: { only: [:id, :yourTeam, :opponentTeam, :won, :created_at]}])
 
   end
 
