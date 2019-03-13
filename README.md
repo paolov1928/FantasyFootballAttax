@@ -1,25 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Written by Paolo Ventura
 
-Things you may want to cover:
+This project uses React, on the Front End, and Ruby on Rails on the Back end. Users can create an account or login and then play a game of NFL statistics comparison. The player chooses their team and their players. The computer's players are randomly picked.
 
-* Ruby version
+The project uses encoded JWTs for login and verification. It includes Routes to Users and Games.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # FantasyFootballAttax
